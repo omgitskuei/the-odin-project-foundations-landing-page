@@ -1,7 +1,5 @@
 # the-odin-project-foundations-landing-page
 
-Taken from: https://www.theodinproject.com/lessons/foundations-landing-page
-
 The Odin Project > Foundations Course > Project: Landing Page
 
 ## Summary
@@ -13,6 +11,9 @@ Implement this landing page, based off the provided image as a design reference:
 [View the final result at https://omgitskuei.github.io/the-odin-project-foundations-landing-page/](https://omgitskuei.github.io/the-odin-project-foundations-landing-page/), which looks like this:
 
 <img src="./03.png" width="600" />
+
+
+Project description taken from: https://www.theodinproject.com/lessons/foundations-landing-page
 
 ## Introduction
 
