@@ -4,6 +4,16 @@ Taken from: https://www.theodinproject.com/lessons/foundations-landing-page
 
 The Odin Project > Foundations Course > Project: Landing Page
 
+## Summary
+
+Implement this landing page, based off the provided image as a design reference:
+
+<img src="./01.png" width="600" />
+
+[View the final result at https://omgitskuei.github.io/the-odin-project-foundations-landing-page/](https://omgitskuei.github.io/the-odin-project-foundations-landing-page/), which looks like this:
+
+<img src="./03.png" width="600" />
+
 ## Introduction
 
 For this project you’ll be creating an entire web page from a design we’ll provide for you. If you’ve been following along you should have the skills you need to accomplish this, but it may not be easy!
