@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>T.O.P. Landing Page</title>
+</head>
+<style>
+    * {
+        font-family: 'roboto', 'sans-serif';
+    }
+
+    div#quoteblock {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+        display: flexbox;
+        align-content: space-between;
+        background-color: #E5E7EB;
+        color: #1F2937;
+    }
+
+    img.cardImg {
+        border-radius: 10px;
+        border: 2px solid #3882F6;
+    }
+
+    #cards {
+        padding-top: 200;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #cardsSection {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #cardsSection>div:first-child {
+        /* background-color: aqua; */
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #cards div {
+        /* background-color: aquamarine; */
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cards div label {
+        max-width: 100px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    div#quoteblock span#quote {
+        font-size: 36px;
+        font-style: italic;
+    }
+
+    div#quoteblock span#quotee {
+        font-size: 26px;
+        font-weight: bolder;
+        text-align: right;
+        display: block;
+    }
+
+    header {
+        background-color: #1F2937;
+        padding-bottom: 50px;
+    }
+
+    header section {
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    header>section>:first-child {
+        flex: auto;
+        display: flex;
+    }
+
+    header section div {
+        gap: 30px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+
+    section#hero {
+        background-color: #1F2937;
+        color: white;
+        /* padding-top: 50px; */
+        padding-bottom: 50px;
+        padding-left: 200px;
+        padding-right: 200px;
+        display: flex;
+        flex-direction: row;
+        /* gap: 50px; */
+        justify-content: space-between;
+    }
+
+    section#hero div#heroRightCol img#heroImg {
+        background-color: grey;
+
+    }
+
+    section#hero button#heroBtn {
+        background-color: #3882F6;
+        border-radius: 5px;
+        border: solid 1px #3882F6;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        min-width: 120px;
+        min-height: 35px;
+        margin-top: 5px;
+    }
+
+    #callToAction {
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #callToAction>div {
+        /* min-width: 1000px; */
+        /* min-height: 150px; */
+        flex: 1 1 auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+
+        background-color: #3882F6;
+
+        color: white;
+        /* font-weight: 800; */
+        font-size: 24px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #callToAction>div>button {
+        background-color: #3882F6;
+        border: #E5E7EB 2px solid;
+        border-radius: 10px;
+
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+
+        min-width: 150px;
+        height: 45px;
+    }
+</style>
+
+<body>
+    <header>
+        <section>
+            <span>
+                <b>Header Logo</b>
+            </span>
+            <div>
+                <span>
+                    header link one
+                </span>
+                <span>
+                    header link two
+                </span>
+                <span>
+                    header link three
+                </span>
+            </div>
+
+        </section>
+    </header>
+    <section id="hero">
+        <div id="heroLeftCol">
+            <span style="font-weight: 800; font-size: 48px;">This website is <br> awesome</span>
+            <br>
+            <span style="font-size: 18px;">
+                This website has some subtect that goes under the <br>
+                main title. It's smaller font and color is lower <br>
+                contrast.
+            </span>
+            <br>
+            <button id="heroBtn">Sign up</button>
+        </div>
+        <div id="heroRightCol">
+            <img id="heroImg"
+                src=""
+                alt=""
+                srcset=""
+                height="180px"
+                width="450px">
+        </div>
+    </section>
+
+
+
+    <section id="cardsSection">
+        <div>
+            <label for="cardsSection"
+                style="font-size: 36px; font-weight: 800;">Some random information</label>
+            <br>
+        </div>
+        <div id="cards">
+            <div>
+                <img id="card1"
+                    class="cardImg"
+                    src=""
+                    alt=""
+                    height="100px"
+                    width="100px">
+                <label for="card1">this is some subtext under an illustration or image</label>
+            </div>
+            <div>
+                <img id="card2"
+                    class="cardImg"
+                    src=""
+                    alt=""
+                    height="100px"
+                    width="100px">
+                <label for="card2">this is some subtext under an illustration or image</label>
+            </div>
+            <div>
+                <img id="card3"
+                    class="cardImg"
+                    src=""
+                    alt=""
+                    height="100px"
+                    width="100px">
+                <label for="card3">this is some subtext under an illustration or image</label>
+            </div>
+            <div>
+                <img id="card4"
+                    class="cardImg"
+                    src=""
+                    alt=""
+                    height="100px"
+                    width="100px">
+                <label for="card4">this is some subtext under an illustration or image</label>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="quoteblock">
+            <span id="quote">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+                people
+                will actually read it. Who knows?
+                All I know is that it looks nice.
+            </span>
+            <br>
+            <span id="quotee">- Thor, God of Thunder</span>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <section id="callToAction">
+        <div>
+            <span>
+                <span style="font-weight:900; font-size:36px;">Call to action! It's time!</span><br>
+                Sign up for our product by clicking that button right over there!
+            </span>
+            <button onclick="callToActionClick()">Sign up</button>
+        </div>
+    </section>
+</body>
+<script>
+    function callToActionClick() {
+        alert('Sign up!');
+    }
+</script>
+
+</html>
