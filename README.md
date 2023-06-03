@@ -8,7 +8,7 @@ Implement this landing page, based off the provided image as a design reference:
 
 <img src="./01.png" width="600" />
 
-[View the final result at https://omgitskuei.github.io/the-odin-project-foundations-landing-page/](https://omgitskuei.github.io/the-odin-project-foundations-landing-page/), which looks like this:
+View the final result at [https://omgitskuei.github.io/the-odin-project-foundations-landing-page/](https://omgitskuei.github.io/the-odin-project-foundations-landing-page/), which looks like this:
 
 <img src="./03.png" width="600" />
 
